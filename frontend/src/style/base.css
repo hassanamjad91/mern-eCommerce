@@ -1,0 +1,6 @@
+@import './bootstrap.min.css';
+@import './font-awesome.min.css';
+
+main {
+  min-height: 80vh;
+}
