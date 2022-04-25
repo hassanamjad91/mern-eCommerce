@@ -1,4 +1,4 @@
-# eCommerce Website
+# MERN eCommerce Application
 
 An eCommerce website build using MERN stack. Currently its a work in progress.. 
 
