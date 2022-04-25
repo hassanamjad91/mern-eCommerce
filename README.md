@@ -1,6 +1,6 @@
 # eCommerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An eCommerce website build using MERN stack. Currently its a work in progress.. 
 
 ## Available Scripts
 
