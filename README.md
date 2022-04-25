@@ -3,7 +3,7 @@
 An eCommerce website build using MERN stack. Currently its a work in progress.. 
 
 ## Feature Set
-- [x] Product catalog sourced from MongoDB atlas
+- [x] Product catalog sourced from MongoDB Atlas
 - [x] Add / remove prodcts from Cart
 - [x] Login / Sign up screen
 - [x] React-Bootstrap style compoenets
