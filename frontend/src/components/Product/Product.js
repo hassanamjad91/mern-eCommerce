@@ -8,9 +8,9 @@ const Product = (props) => {
     const { product } = props;
 
     return (
-        <Card className='product-summary my-3 p3 rounded'>
+        <Card className='product-summary my-3 p-3 rounded'>
             <Link to={`/product/${product._id}`}>
-                <Card.Img sr={product.image} variant='top' />
+                <Card.Img src={product.image} variant='top' />
             </Link>
             <Card.Body>
                 <Link to={`/product/${product._id}`}>

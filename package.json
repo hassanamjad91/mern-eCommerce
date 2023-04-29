@@ -1,0 +1,33 @@
+{
+  "name": "mern-shop",
+  "version": "1.0.0",
+  "description": "MERN eCommerce app",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassanamjad91/mern-shop.git"
+  },
+  "author": "Muhammad Hassan Amjad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hassanamjad91/mern-shop/issues"
+  },
+  "homepage": "https://github.com/hassanamjad91/mern-shop#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
